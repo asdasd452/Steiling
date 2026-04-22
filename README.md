@@ -1,0 +1,143 @@
+[index.html](https://github.com/user-attachments/files/26951649/index.html)
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Мой первый сайт</title>
+</head>
+<body>
+
+    <h1>Асхаб лучший программист</h1>
+    <p>Я учусь программировать</p>
+
+    <button onclick="alert('Ты нажал кнопку!')">
+        Нажми меня
+    </button>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Мой первый сайт</title>
+</head>
+<body>
+
+    <h1>Привет, это мой сайт!</h1>
+    <p>Я начинаю учить программирование </p>
+
+    <button onclick="alert('Ты нажал кнопку!')">
+        Нажми меня
+    </button>
+
+</body>
+</html>
+<style>
+body {
+    background-color: black;
+    color: white;
+    text-align: down;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 5%;
+    border: none;
+}
+</style>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS тест</title>
+</head>
+
+<body>
+
+<h1>Проверка JavaScript</h1>
+
+<button onclick="sayHello()">Нажми</button>
+
+<script>
+function sayHello() {
+    alert("Работает 💪");
+}
+</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Кнопки</title>
+
+    <style>
+        body {
+            background: #111;
+            color: white;
+            text-align: center;
+            font-family: Arial;
+        }
+
+        button {
+            padding: 12px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .btn-green {
+            background: green;
+            color: white;
+        }
+
+        .btn-blue {
+            background: blue;
+            color: white;
+        }
+
+        .btn-red {
+            background: red;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Мои кнопки</h1>
+
+<button class="btn-green" onclick="hello()">Сказать привет</button>
+<button class="btn-blue" onclick="goSite()">Открыть сайт</button>
+<button class="btn-red" onclick="order()">Заказать</button>
+
+<script>
+function hello() {
+    alert("Привет 👋");
+}
+
+function goSite() {
+    window.open("https://google.com");
+}
+
+function order() {
+    alert("Свяжись со мной!");
+}
+</script>
+
+</body>
+</html>
+<button onclick="whatsapp()">Написать в WhatsApp</button>
+
+<script>
+function whatsapp() {
+    window.open("https://wa.me/49123456789");
+}
+</script>
+<button onclick="telegram()">Telegram</button>
+
+<script>
+function telegram() {
+    window.open("https://t.me/username");
+}
